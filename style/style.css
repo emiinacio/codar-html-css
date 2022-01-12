@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;    
+    padding: 10px 30px;
+}
+
+.nav--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav--menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav--menu ul li{
+    list-style: none;
+}
+
+.nav--menu a {
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.nav--menu ul li:nth-last-child(1) {
+    background: #D6000D ;
+    padding: 0px 50px;
+    border-radius: 10px ;
+    color: #fff;
+}
