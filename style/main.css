@@ -1,5 +1,7 @@
-p, a {
+.services--container p, a, 
+.service--contact p {
     font-family: 'Roboto', sans-serif;
+    color: #242424;
 }
 
 .services--container {
@@ -25,7 +27,7 @@ p, a {
 }
 
 .service--contact{
-    padding: 100px 200px;
+    padding: 20px 200px;
     display: inline-block;
 }
 

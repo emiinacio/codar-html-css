@@ -63,6 +63,6 @@ nav {
     color: #fff;
 }
 
-.nav--menu a:hover {
+nav--menu ul li:nth-child(4):hover {
     background: #980009;
 }

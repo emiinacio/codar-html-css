@@ -1,11 +1,22 @@
-.footer-container{
-    background: black;
-    
+.footer--container h1, p, a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
-.footer--column{
-    color: white;
+.footer--container{
+    background: black;
+    min-height: 30vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.footer--column {
+    display: grid;
+    grid-template-columns: 250px, 1fr;
+    grid-column-gap: 16px;
+}
+
+.footer--column p:nth-child(3) {
+    margin-bottom: 10px;
 }
