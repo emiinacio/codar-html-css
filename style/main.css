@@ -1,0 +1,50 @@
+p, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.services--container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.services--description p {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.services--description img {
+    width: 50px;
+    padding-right: 25px;
+}
+
+.services--image img {
+    width: 40vw;
+}
+
+.service--contact{
+    padding: 100px 200px;
+    display: inline-block;
+}
+
+.service--contact p {
+    font-size: 35px;
+}
+
+.service--contact input{
+    background: #DCDCDC;
+    border: none;
+    padding: 25px 90px 23px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.service--contact a {
+    background: #D6000D;
+    padding: 22px 90px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}

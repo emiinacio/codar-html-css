@@ -1,0 +1,11 @@
+.footer-container{
+    background: black;
+    
+}
+
+.footer--column{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

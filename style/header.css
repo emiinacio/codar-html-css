@@ -1,0 +1,41 @@
+a, p, h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.header--image img {
+    width: 40vw;
+}
+
+.header--info p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header--info h1 {
+    color: #D6000D;
+    font-size: 100px;
+    margin-top: -10px;
+    margin-bottom: 35px;
+}
+
+.header--info a {
+    background: #D6000D;
+    padding: 15px 70px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.header--info a:hover {
+    background-color: #980009;
+}

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/cards.css">
+    <link rel="stylesheet" href="style/footer.css">
     <title>Document</title>
 
 </head>
@@ -16,39 +17,47 @@
 <nav>
     <div class="nav--container">
         <div class="nav--logo">
-            <a href="#">Codar.</a>
+            <a href="#">Codar<span>.</span></a>
         </div>
         <div class="nav--menu">
             <ul>
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Serviços</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#"><span>Login</span></a></li>
             </ul>
         </div>
     </div>
 </nav>
 
 <header>
-    <figure><img src="assets/video_call.png" alt="video call"></figure>
-    <p>Alavanque seu negócio com um</p>
-    <h1>Website incrível</h1>
-    <a href="#">Solicitar orçamento</a>
+    <div class="header--container">
+        <div class="header--image">
+            <img src="assets/video_call.png" alt="video call">
+        </div>
+        <div class="header--info">
+            <p>Alavanque seu negócio com um</p>
+            <h1>Website incrível</h1>
+            <a href="#">Solicitar orçamento</a>
+        </div>
+    </div>
 </header>
 
 <main>
-    <div class="services">
+    <div class="services--container">
+        <div class="services--description">
             <p> <img src="/assets/check.png" alt=""> Domínio personalizado </p>
             <p> <img src="/assets/check.png" alt=""> Hospedagem </p>
             <p> <img src="/assets/check.png" alt=""> Site responsivo </p>
             <p> <img src="/assets/check.png" alt=""> Redes sociais </p>
             <p> <img src="/assets/check.png" alt=""> Chat online </p>
             <p> <img src="/assets/check.png" alt=""> Blog integrado </p>
+        </div>
+        <div class="services--image">
+            <img src="/assets/coding_.png" alt="coding"></figure>
+        </div>
     </div>
-    <div class="image">
-        <figure><img src="/assets/coding_.png" alt="coding"></figure>
-    </div>
-    <div class="contact">
+    <div class="service--contact">
         <p>Nossa equipe está à disposição!</p>
         <input type="text" placeholder="Telemóvel">
         <a href="#">Ligamos pra você</a>
@@ -56,46 +65,49 @@
 </main>
 
 <section>
-    <div class="cards">
-        <div class="card">
-            <img src="" alt="">
-            <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
-            <h1>Pedro Ferreira</h1>
-            <h3>Construtora Minari</h3>
-        </div>
-        <div class="card">
-            <img src="" alt="">
-            <p>Processos bem simples e criação de um site exatamente como a minha escola queria!
-            </p>
-            <h1>Maria Rita</h1>
-            <h3>Escola Criança Feliz</h3>
+    <div class="cards--container">
+            <div class="card--horizontal">
+                <img src="#" alt="">
+                <p>Já tive experiências com outras 4 empresas da área e a Codar é sem sombra de dúvidas superior em todos os aspectos.</p>
+                <h1>Pedro Ferreira</h1>
+                <h3>Construtora Minari</h3>
+            </div>
+            <div class="card--horizontal">
+                <img src="" alt="">
+                <p>Processos bem simples e criação de um site exatamente como a minha escola queria!
+                </p>
+                <h1>Maria Rita</h1>
+                <h3>Escola Criança Feliz</h3>
+            </div>
         </div>
     </div>
 </section>
 
 <footer>
-    <div class="content">
-        <div class="colum">
-            <h1>Codar.</h1>
-            <p>Criamos websites incríveis</p>
-        </div>
-        <div class="colum">
-            <h1>Sobre</h1>
-            <p>Amamos criar soluções<br/>
+    <div class="footer-container">
+        <div class="footer-column">
+            <div class="colum">
+                <h1>Codar.</h1>
+                <p>Criamos websites incríveis</p>
+            </div>
+            <div class="colum">
+                <h1>Sobre</h1>
+                <p>Amamos criar soluções<br/>
+                    e entregar sites incríveis</p>
+            </div>
+            <div class="colum">
+                <h1>Contato</h1>
+                <p>123 Av. Manjar - Nárnia<br/>
+                    +55 96 2321-3131<br/>
+                    contato@codar.com</p>
+            </div>
+            <div class="colum">
+                <h1>Redes sociais</h1>
+                <p>Amamos criar soluções<br/>
                 e entregar sites incríveis</p>
+            </div>
         </div>
-        <div class="colum">
-            <h1>Contato</h1>
-            <p>123 Av. Manjar - Nárnia<br/>
-                +55 96 2321-3131<br/>
-                contato@codar.com</p>
-        </div>
-        <div class="colum">
-            <h1>Redes sociais</h1>
-            <p>Amamos criar soluções<br/>
-                e entregar sites incríveis</p>
-        </div>
-    </div>
+    </fiv>
 </footer>
 </body>
 </html>
