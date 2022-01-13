@@ -42,26 +42,10 @@ Seu desafio é criar uma página sobre uma empresa que desenvolve sites. O model
 HTML<br>
 CSS
 
-# Como começar:
-1 - Use esse template ou clone esse repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade :)<br>
-
-# Requisitos:
-- Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
-- Sua página deve ser responsiva
 
 # Dicas
 ## Cores:
 Vermelho: #D6000D
-
-## Modelo:
-O modelo está disponível na pasta `./design`<br>
-
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`<br>
-Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
 
 ## Tipo de fonte:
 - Roboto
