@@ -6,7 +6,7 @@
 
   <h3 align="center">Codar.</h3>
 
-  <p align="center">
+  <p>
     Site de uma empresa que desenvolve sites
        <br />
     <br />
