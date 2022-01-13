@@ -19,13 +19,13 @@
     margin: 10px;
 }
 
-.card--horizontal h3 {
+.card--texts h3 {
     margin-top: -20px;
 }
 
 .card--texts p{
     width: 80%;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .card--texts h3{
@@ -48,4 +48,66 @@
     display: inline-block;
     padding: 0 15px;
 
+}
+
+@media only screen and (max-width: 820px) {
+    .card--horizontal{
+        width: 150vw;
+        height: 15vh;
+        border-radius: 10px;
+        
+    }
+    .card--texts h1 {
+        font-size: 20px;
+    }
+    .card--texts h3 {
+        font-size: 15px;
+    }
+    .card--texts p{
+        width: 100%;
+    }
+    .card--image {
+        padding: 7px;
+    }
+    .cards--container {
+        margin: 100px 10px;
+    }
+}
+
+@media only screen and (max-width: 390px) { 
+    .card--texts p {
+        width: 95%;
+        font-size: 12px;
+        text-justify: justify;
+    }
+
+    .cards--container {
+        margin: 50px 10px;
+        flex-direction: column;
+    }
+
+    .card--texts h1 {
+        font-size: 13px;
+    }
+
+    .card--texts h3 {
+        font-size: 11px;
+        margin-top: -10px;
+    }
+
+    .card--image {
+        padding: 7px 7px;
+    }
+
+    .card--image img {
+        background: red;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .card--horizontal {
+        width: 70vw;
+        height: 15vh;
+        border-radius: 10px;
+    }
 }

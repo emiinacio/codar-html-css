@@ -66,3 +66,68 @@ nav {
 nav--menu ul li:nth-child(4):hover {
     background: #980009;
 }
+
+@media only screen and (max-width: 390px) { 
+    .nav {
+        padding: 10px 10px;
+    }
+
+    .nav--container {
+        display: block;
+    }
+
+    .nav--logo a {
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav--menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav--menu ul li:nth-child(4) {
+        padding: 5px 20px;
+    }
+
+    .nav--menu a {
+        padding: 0 10px;
+    }   
+}
+
+@media only screen and (max-width: 414px) { 
+    .nav {
+        padding: 10px 10px;
+    }
+
+    .nav--container {
+        display: block;
+    }
+
+    .nav--logo a {
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav--menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .nav--menu ul li:nth-child(4) {
+        padding: 5px 20px;
+    }
+
+    .nav--menu a {
+        padding: 0 10px;
+    }
+    
+}
